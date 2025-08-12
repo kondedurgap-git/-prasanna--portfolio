@@ -1,0 +1,64 @@
+{
+  "name": "durga-prasanna-konde-portfolio",
+  "version": "1.0.0",
+  "description": "Professional cybersecurity blue team portfolio showcasing 5+ years of experience in vulnerability management, threat intelligence, and incident response",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'",
+    "lint:html": "npx htmlhint index.html",
+    "lint:css": "npx stylelint css/*.css",
+    "lint:js": "npx eslint js/*.js",
+    "optimize:images": "echo 'Run image optimization tools here'",
+    "deploy:netlify": "npx netlify deploy --prod --dir .",
+    "deploy:surge": "npx surge . your-domain.surge.sh"
+  },
+  "keywords": [
+    "cybersecurity",
+    "blue-team",
+    "portfolio",
+    "vulnerability-management",
+    "threat-intelligence",
+    "incident-response",
+    "GRC",
+    "NIST",
+    "ISO-27001",
+    "security-analyst",
+    "SOC",
+    "SIEM",
+    "penetration-testing",
+    "forensics"
+  ],
+  "author": {
+    "name": "Durga Prasanna Konde",
+    "email": "prasanna.konde@email.com",
+    "url": "https://your-portfolio-url.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prasanna-konde/cybersecurity-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prasanna-konde/cybersecurity-portfolio/issues"
+  },
+  "homepage": "https://your-portfolio-url.com",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "eslint": "^8.48.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
